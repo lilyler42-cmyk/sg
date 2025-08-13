@@ -1,0 +1,513 @@
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="robots" content="all" />
+        <meta name="author" content="Tencent-TGideas" />
+        <meta
+            name="Description"
+            content="《新QQ三国》是腾讯首款经典萌系横版网游，精美细腻的游戏场景，清新悠扬的古典背景音乐，可爱搞笑的骁勇悍将，唯美绚丽的动作特效，还原经典的三国战役，将带您体验无与伦比的战斗乐趣，为您重塑忍俊不禁的奇幻三国。"
+        />
+        <meta name="Keywords" content="腾讯游戏 QQ三国 2D横版 Q版 爱生活 爱三国" />
+        <title>爱三国！爱生活！-新QQ三国-官方网站-腾讯游戏</title>
+        <link rel="stylesheet" href="./assets/css/common.css" />
+        <link rel="stylesheet" href="./assets/css/swiper.min.css" />
+        <style>
+            .section1 {
+                background: url(./assets/images/bg01.jpg) no-repeat center;
+                height: 845px;
+            }
+            .section1 .cont {
+                width: 910px;
+                margin: 0 auto;
+                padding-top: 440px;
+            }
+            .section1 .cont .rec {
+                width: 100%;
+                height: 50px;
+            }
+            .section1 .cont p {
+                float: right;
+                height: 30px;
+                line-height: 30px;
+                color: #fff;
+            }
+            .section1 .cont p > i {
+                display: block;
+                width: 8px;
+                height: 15px;
+                border-radius: 10px;
+                background: #ffe400;
+                float: left;
+                margin-right: 3px;
+                margin-top: 7px;
+            }
+            .section1 .cont p > span {
+                float: left;
+                display: block;
+            }
+            .section1 .cont p > a {
+                color: #fff;
+                display: block;
+                float: left;
+            }
+            .section1 .cont .find {
+                display: block;
+                width: 80px;
+                height: 30px;
+                background: #ffe400;
+                text-align: center;
+                line-height: 30px;
+                border-radius: 20px;
+                margin-left: 10px;
+                color: #434343;
+            }
+            .section1 .cont .left {
+                float: left;
+            }
+            .section1 .cont .left .enter {
+                width: 270px;
+                background-position: -420px -382px;
+                height: 166px;
+                line-height: 166px;
+                -webkit-perspective: 350px;
+                -webkit-transform-style: preserve-3d;
+                -webkit-perspective-origin: 50% 50%;
+                -moz-perspective: 350px;
+                -moz-transform-style: preserve-3d;
+                -moz-perspective-origin: 50% 50%;
+                perspective: 350px;
+                transform-style: preserve-3d;
+                perspective-origin: 50% 50%;
+            }
+            .section1 .cont .left .enter > a {
+                display: block;
+                position: absolute;
+                width: 180px;
+                line-height: 30px;
+                text-align: center;
+                font-size: 28px;
+                top: 50px;
+                left: 40px;
+                color: #868686;
+            }
+            .section1 .cont .left .enter > a > i {
+                font-style: normal;
+                font-size: 12px;
+                display: block;
+            }
+            .section1 .cont .left .front {
+                -webkit-transform: translateZ(50px);
+                -moz-transform: translateZ(50px);
+                transform: translateZ(50px);
+            }
+            .section1 .cont .left .top {
+                -webkit-transform: rotateX(90deg) translateZ(50px);
+                -moz-transform: rotateX(90deg) translateZ(50px);
+                transform: rotateX(90deg) translateZ(50px);
+                opacity: 0;
+            }
+            .section1 .cont .left .enter:hover .front {
+                animation: one 2s;
+                -webkit-animation-fill-mode: forwards;
+                -moz-animation-fill-mode: forwards;
+                animation-fill-mode: forwards;
+            }
+            .section1 .cont .left .enter:hover .top {
+                animation: two 2s;
+                -webkit-animation-fill-mode: forwards;
+                color: #505050;
+            }
+            .section1 .cont .left .enter:hover .top > i {
+                color: #a36401;
+            }
+            .section1 .cont .left .download {
+                width: 270px;
+                background-position: -420px -546px;
+                height: 140px;
+                line-height: 140px;
+                -webkit-perspective: 350px;
+                -webkit-transform-style: preserve-3d;
+                -webkit-perspective-origin: 50% 50%;
+                -moz-perspective: 350px;
+                -moz-transform-style: preserve-3d;
+                -moz-perspective-origin: 50% 50%;
+                perspective: 350px;
+                transform-style: preserve-3d;
+                perspective-origin: 50% 50%;
+            }
+            .section1 .cont .left .download > a {
+                display: block;
+                position: absolute;
+                width: 180px;
+                line-height: 30px;
+                text-align: center;
+                font-size: 28px;
+                top: 40px;
+                left: 40px;
+                color: #868686;
+            }
+            .section1 .cont .left .download > a > i {
+                font-style: normal;
+                font-size: 12px;
+                display: block;
+            }
+            .section1 .cont .left .download:hover .front {
+                animation: one 2s;
+                -webkit-animation-fill-mode: forwards;
+                -moz-animation-fill-mode: forwards;
+                animation-fill-mode: forwards;
+            }
+            .section1 .cont .left .download:hover .top {
+                animation: two 2s;
+                -webkit-animation-fill-mode: forwards;
+                color: #505050;
+            }
+            .section1 .cont .left .download:hover .top > i {
+                color: #a36401;
+            }
+            @keyframes one {
+                from {
+                    -webkit-transform: translateZ(50px);
+                    -moz-transform: translateZ(50px);
+                    transform: translateZ(50px);
+                    opacity: 1;
+                }
+                to {
+                    -webkit-transform: rotateX(-90deg) translateZ(50px);
+                    -moz-transform: rotateX(-90deg) translateZ(50px);
+                    transform: rotateX(-90deg) translateZ(50px);
+                    opacity: 0;
+                }
+            }
+            @keyframes two {
+                from {
+                    -webkit-transform: rotateX(90deg) translateZ(50px);
+                    -moz-transform: rotateX(90deg) translateZ(50px);
+                    transform: rotateX(90deg) translateZ(50px);
+                    opacity: 0;
+                }
+                to {
+                    -webkit-transform: translateZ(50px);
+                    -moz-transform: translateZ(50px);
+                    transform: translateZ(50px);
+                    opacity: 1;
+                }
+            }
+
+            .section1 .cont .mid {
+                float: left;
+                margin-top: 8px;
+            }
+            .section1 .cont .mid .video {
+                width: 400px;
+                height: 298px;
+                background: url(./assets/images/video.jpg) no-repeat;
+                cursor: pointer;
+            }
+
+            .section1 .cont .right {
+                background: url(./assets/images/ad_bg.png) no-repeat center;
+                width: 240px;
+                height: 306px;
+                float: right;
+            }
+
+            .section2 {
+                background: url(./assets/images/bg02.jpg) no-repeat center;
+                height: 602px;
+            }
+            .section2 .cont {
+                width: 1244px;
+                margin: 0 auto;
+                padding-top: 240px;
+            }
+            .section2 .cont ul {
+                overflow: hidden;
+            }
+            .section2 .cont li {
+                float: left;
+                width: 230px;
+                text-align: center;
+                margin: 0 50px;
+            }
+            .section2 .cont li:last-of-type {
+                margin: 0;
+            }
+            .section2 .cont li > a {
+                display: block;
+                color: #adadad;
+            }
+            .section2 .cont li > a:hover {
+                color: #434343;
+            }
+            .section2 .cont li > a > i {
+                display: block;
+                font-style: normal;
+                font-size: 20px;
+            }
+            .section2 .cont li > a > em {
+                display: block;
+            }
+            .section3 {
+                background: url(./assets/images/bg03.jpg) no-repeat center;
+                height: 686px;
+            }
+            .section3 .cont {
+                padding-top: 25px;
+            }
+            .section3 .cont .zy-Slide {
+                font-size: 12px;
+                position: relative;
+                width: 1010px;
+                height: 400px;
+                margin: 115px auto 0;
+            }
+            .section3 .cont .zy-Slide ul {
+                position: relative;
+                width: 1010px;
+                height: 400px;
+                margin: 0;
+                padding: 0;
+            }
+            .section3 .cont .zy-Slide li {
+                position: absolute;
+                list-style: none;
+                width: 0;
+                height: 0;
+                top: 146px;
+                left: 377px;
+                z-index: 0;
+                cursor: pointer;
+                border-radius: 3px;
+                margin: 0;
+                padding: 0;
+            }
+            .section3 .cont .zy-Slide li > a {
+                display: block;
+            }
+            .section3 .cont .zy-Slide li img {
+                width: 100%;
+                height: 100%;
+                vertical-align: middle;
+            }
+            .section3 .cont .zy-Slide span:nth-child(1),
+            .zy-Slide span:nth-child(2) {
+                text-indent: -999rem;
+                position: absolute;
+                top: 50%;
+                width: 55px;
+                height: 100px;
+                cursor: pointer;
+                line-height: 40px;
+            }
+            .section3 .cont .zy-Slide span:nth-child(1) {
+                left: -100px;
+                background-position: -280px -400px;
+            }
+            .section3 .cont .zy-Slide span:nth-child(2) {
+                right: -100px;
+                background-position: -360px -400px;
+            }
+            .foot {
+                background: #fff;
+            }
+
+            .ggBox {
+                height: 298px;
+                margin: 0 0 0 8px;
+            }
+            .ggBox {
+                position: relative;
+                background: #0e97dc;
+                overflow: hidden;
+            }
+            .adPic {
+                position: absolute;
+                width: 100%;
+                height: 100%;
+                left: 0;
+                top: 0;
+            }
+            .adPic a {
+                display: block;
+                width: 100%;
+                height: 100%;
+                overflow: hidden;
+                position: absolute;
+                left: 0;
+                top: 0;
+                background: #0e97dc;
+            }
+            .adPic img {
+                width: 100%;
+                height: 100%;
+                position: absolute;
+                top: 0;
+                left: 0;
+            }
+            .adBtn {
+                position: absolute;
+                z-index: 2;
+                right: 5px;
+                bottom: 8px;
+                height: 20px;
+            }
+            .adBtn a {
+                display: block;
+                float: left;
+                text-indent: -5000px;
+                margin-right: 3px;
+                width: 30px;
+                height: 12px;
+                border-radius: 20px;
+                background: #fff;
+            }
+            .adBtn a.on {
+                background: #ffe400;
+                width: 20px;
+            }
+        </style>
+        <body cz-shortcut-listen="true">
+            <div class="section1">
+                <div class="cont" style="height: 100%; max-height: 400px;">
+                    <div class="rec">
+                        <p><i></i><span>推荐新服：</span><a href="#">百骑劫营</a><a href="#" class="find">合服查询</a></p>
+                    </div>
+                    <div class="left">
+                        <div class="enter spr">
+                            <a href="#" class="top downloadLink"><img src="./assets/images/down1.png" /></a>
+                            <a href="#" class="front downloadLink"><img src="./assets/images/down0.png" /></a>
+                        </div>
+                        <div class="download spr">
+                            <a href="#" class="top"><img src="./assets/images/enter1.png" /></a>
+                            <a href="#" class="front"><img src="./assets/images/enter0.png" /></a>
+                        </div>
+                    </div>
+                    <div class="mid">
+                        <div id="videoCon" class="video">
+                            <div
+                                class="txp_player txp_player_desktop txp_autohide_progress txp_player_external txp_player_xs txp_player_mini"
+                                id="txplayer_bacfbb39ab793044d43d1db946abf1cd"
+                                style="width: 400px; height: 298px; cursor: auto;"
+                                tabindex="-1"
+                            >
+                                <div style="width: 1px; height: 1px; display: block; -webkit-user-select: auto; user-select: auto;"></div>
+                                <div class="txp_gradient_top txp_none" data-role="txp-frame-gradient-top"></div>
+                                <div class="txp_gradient_bottom"></div>
+                                <div data-role="txp-video-wrapper" class="txp_video_container">
+                                    <video
+                                        style="background-color: rgb(0, 0, 0); width: 100%; height: 100%; display: block;"
+                                        webkit-playsinline=""
+                                        x-webkit-airplay=""
+                                        preload="auto"
+                                        muted=""
+                                        autoplay
+                                        controls
+                                        data-role="txp_video_tag"
+                                        src="./assets/images/gzc_1000035_0b53qmaciaaapuaohr4lsvtjla6desbqajca.f622.mp4"
+                                    ></video>
+                                    <video style="background-color: rgb(0, 0, 0); width: 100%; height: 100%; display: none;" webkit-playsinline="" x-webkit-airplay="" preload="auto" muted="" data-role="txp_video_tag"></video>
+                                    <div data-role="txp-shadow-mod" class="txp_shadow"></div>
+                                </div>
+                               
+                                <div data-role="txp-ui-poster" class="txp_poster txp_none" style="background-image: url(./assets/images/r3556sagx11_hz.jpg); background-size: cover;"></div>
+                                <div class="txp_overlay_loading">
+                                    <div class="txp_text txp_none" data-role="txp-ui-continue-play"></div>
+                                    <div class="txp_icon_loading txp_none" data-role="txp-ui-loading"></div>
+                                </div>
+                                <div class="txp_overlay_play txp_none" "="" data-role="txp_overlay_play">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="right">
+                    <div class="ggBox" id="ggBox">
+                        <div class="adPic">
+                            <a title="一起十七年" href="#" style="left: -100%;"><img src="./assets/images/1719258225396943753.jpg" /></a>
+                            <a title="南蛮寻宝" href="#" style="left: 0%;"><img src="./assets/images/1719258252439298066.jpg" /></a>
+                            <a title="四海货栈" href="#" style="left: 100%;">
+                                <p><span class="loadI">正在加载中……</span></p>
+                                <img rel="./assets/images/1719258278287910851.jpg" src="./assets/images/1719258278287910851.jpg" />
+                            </a>
+                            <a title="唤灵子女" href="#" style="left: 100%;">
+                                <p><span class="loadI">正在加载中……</span></p>
+                                <img rel="./assets/images/1719258303529536245.jpg" src="./assets/images/1719258303529536245.jpg" />
+                            </a>
+                        </div>
+                        <div class="adBtn">
+                            <a title="一起十七年" href="javascript:void(0)" class="">一起十七年</a><a title="南蛮寻宝" href="javascript:void(0)" class="on">南蛮寻宝</a><a title="四海货栈" href="javascript:void(0)" class="">四海货栈</a>
+                            <a title="唤灵子女" href="javascript:void(0)" class="">唤灵子女</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="section2">
+                <div class="cont" style="height: 100%;max-height: 400px;">
+                    <ul>
+                        <li>
+                            <a href="#">
+                                <img src="./assets/images/qd1.jpg" alt="" />
+                                <i>全新玩法</i>
+                                <em>南蛮·秘宝寻踪</em>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="./assets/images/qd2.jpg" alt="" />
+                                <i>全新交易大厅</i>
+                                <em>四海货栈</em>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="./assets/images/qd3.jpg" alt="" />
+                                <i>全新子女</i>
+                                <em>唤灵宝宝</em>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="./assets/images/qd4.jpg" alt="" />
+                                <i>夏日充值</i>
+                                <em>精美炫装</em>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="section3">
+                <div class="cont">
+                    <div id="Slide1" class="zy-Slide" style="border: 0px solid blue;">
+                        <span class="spr">前一张</span>
+                        <span class="spr">后一张</span>
+                        <ul>
+                            <li style="z-index: 1; width: 470px; height: 300px; top: 61px; left: 540px;">
+                                <a href="#"><img src="./assets/images/zy1.png" style="opacity: 0.6;" /></a>
+                            </li>
+                            <li style="z-index: 0; width: 0px; height: 0px; top: 61px; left: 540px;">
+                                <a href="#"><img src="./assets/images/zy2.png" style="opacity: 0.5;" /></a>
+                            </li>
+                            <li style="z-index: 1; width: 470px; height: 300px; top: 61px; left: 0px;">
+                                <a href="#"><img src="./assets/images/zy6.png" style="opacity: 0.6;" /></a>
+                            </li>
+                            <li style="z-index: 2; width: 570px; height: 370px; top: 37px; left: 85px;">
+                                <a href="#"><img src="./assets/images/zy3.png" style="opacity: 0.7;" /></a>
+                            </li>
+                            <li style="z-index: 3; width: 655px; height: 430px; top: 0px; left: 162px;">
+                                <a href="#"><img src="./assets/images/zy4.png" style="opacity: 1;" /></a>
+                            </li>
+                            <li style="z-index: 2; width: 570px; height: 370px; top: 37px; left: 348px;">
+                                <a href="#"><img src="./assets/images/zy5.png" style="opacity: 0.7;" /></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <script src="./assets/js/jquery.min.js"></script>
+            <script src="./assets/js/jquery.zySlide.js"></script>
+        </body>
+    </head>
+</html>
